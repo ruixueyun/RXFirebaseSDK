@@ -87,6 +87,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)setAnalyticsCollectionEnabled:(BOOL)enable;
 
+/**
+ * 获取 instanceID
+ */
+- (NSString *)getInstanceId;
+
 @end
 
 NS_ASSUME_NONNULL_END
