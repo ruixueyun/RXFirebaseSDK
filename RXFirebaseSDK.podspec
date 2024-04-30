@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RXFirebaseSDK'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'ruixue RXFirebaseSDK framework.'
 
 # This description is used to generate tags and improve searc results.
@@ -41,7 +41,7 @@ TODO: Add long description of the pod here.
   
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   
-  s.dependency 'FirebaseAnalytics'
-  s.dependency 'FirebaseMessaging'
+  s.dependency 'FirebaseAnalytics', '10.24.0'
+  s.dependency 'FirebaseMessaging', '10.24.0'
   
 end
