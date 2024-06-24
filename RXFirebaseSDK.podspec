@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RXFirebaseSDK'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'ruixue RXFirebaseSDK framework.'
 
 # This description is used to generate tags and improve searc results.
