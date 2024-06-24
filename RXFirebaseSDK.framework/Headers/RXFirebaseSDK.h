@@ -16,3 +16,5 @@ FOUNDATION_EXPORT const unsigned char RXFirebaseSDKVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <RXFirebaseSDK/PublicHeader.h>
 
 #import <RXFirebaseSDK/RXFirebaseService.h>
+#import <RXFirebaseSDK/RXFIRAuthService.h>
+#import <RXFirebaseSDK/RXFIRAnalyticsService.h>
