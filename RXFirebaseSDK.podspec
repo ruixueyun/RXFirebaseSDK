@@ -3,7 +3,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RXFirebaseSDK'
-  s.version          = '1.0.14'
+  s.version          = '1.0.15'
   s.summary          = 'ruixue RXFirebaseSDK framework.'
   s.homepage         = 'https://github.com/ruixueyun/RXFirebaseSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
