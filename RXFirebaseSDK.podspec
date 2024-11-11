@@ -12,6 +12,9 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '12.0'
   s.swift_version    = '5.3'
   s.vendored_frameworks = '*.framework'
+  
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+  
   s.dependency 'FirebaseAnalytics', '10.24.0'
   s.dependency 'FirebaseMessaging', '10.24.0'
   s.dependency 'FirebaseAnalyticsOnDeviceConversion', '10.28.0'
