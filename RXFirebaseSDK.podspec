@@ -39,10 +39,7 @@ TODO: Add long description of the pod here.
   #   'RXSDK' => ['RXSDK/Assets/*.png']
   # }
   
-  # s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
-  s.pod_target_xcconfig = {
-  'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  }
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64' }
   
   s.swift_version = '5.3'
   
